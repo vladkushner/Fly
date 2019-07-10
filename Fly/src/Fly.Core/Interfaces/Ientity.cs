@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Fly.BusinessLogic
+namespace Fly.Core.Interfaces
 {
-    public class Class1
+    public interface IEntity
     {
     }
 }

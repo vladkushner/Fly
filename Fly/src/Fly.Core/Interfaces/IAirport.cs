@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Fly.Core
+namespace Fly.Core.Interfaces
 {
-    public class Class1
+    public interface IAirport
     {
+        int IdAirport { get; set; }
+        int Name { get; set; }
     }
 }
